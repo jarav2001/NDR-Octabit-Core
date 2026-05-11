@@ -2,6 +2,9 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1000353309.svg)](https://doi.org/10.5281/zenodo.1000353309)
 
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20128879.svg)](https://zenodo.org/records/20128879)
+
+
 # NDR-Octabit-Core
 Sistema de Procesamiento Multimodal mediante Topología Octaédrica
 Readme.md
