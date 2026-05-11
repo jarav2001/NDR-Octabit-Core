@@ -1,3 +1,12 @@
+## Intellectual Property & Priority
+* **Author:** Jaime Andrés Ramírez Arcila 
+* **C.I.:** 15.757.447 (Venezuela)
+* **Scientific Record:** Registered under Defensive Publication protocol.
+* **Digital Object Identifier (DOI):** [10.5281/zenodo.20128879](https://zenodo.org/records/20128879)
+* **Status:** Published & Timestamped via Zenodo (CERN infrastructure).
+* **License:** MIT License (Software) / CC BY 4.0 (Documentation).
+* **Copyright:** © 2026. All rights reserved.
+* 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1000353309.svg)](https://doi.org/10.5281/zenodo.1000353309)
 
