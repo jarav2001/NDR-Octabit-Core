@@ -1,3 +1,8 @@
+## Enterprise & Investment Enquiries
+The NDR-Octabit-Core project is a defensible intellectual property registered under DOI: 10.5281/zenodo.20128879. 
+For hardware acceleration partnerships, licensing, or Deep Tech investment inquiries, please connect via [LinkedIn Corporate Activity](https://www.linkedin.com/posts/activity-7460878349217832962-xYhG) or contact the core architecture team directly.
+
+
 # NDR-Octabit-Core: Sistema de Enrutamiento Matricial Base-8 y Arquitectura de Driver de Ultra-Baja Latencia
 **Autor:** Jaime Andrés Ramírez Arcila  
 **Clasificación:** Arquitectura de Sistemas de Bajo Nivel / Cómputo Determinista  
