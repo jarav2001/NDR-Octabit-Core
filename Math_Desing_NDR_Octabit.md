@@ -65,3 +65,7 @@ La arquitectura lógica fundamental, el simulador y las interfaces del driver de
 > Buscamos socios inversores interesados en disrumpir los límites del silicio tradicional y liderar la transición hacia la lógica determinista de tiempo constante.
 > 
 > **Contacto para Due Diligence y Acceso al Whitepaper Completo:** [ramirezjaime @ gmail.com]
+>
+> ### Architectural Implementation Note
+This mathematical model operates as a deterministic logical layer. Unlike analog multi-voltage approaches (which suffer from thermal noise and amplitude degradation), the NDR-Octabit-Core enforces State transitions via orthonormal phase-routing matrix operations. This makes it ideal for immediate software-driven virtualization frameworks on high-performance computing (HPC) nodes and future topological quantum architectures (Qudits).
+
