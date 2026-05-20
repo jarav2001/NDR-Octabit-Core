@@ -74,6 +74,7 @@ This spatial independence allows all 8 discrete states to coexist simultaneously
 > * **Immediate Deployment:** It runs symbiotically on top of existing, commercial binary high-performance computing (HPC) infrastructure, offloading heavy concurrent vector/matrix tasks from the host OS without requiring immediate silicon fabrication.
 > * **Future-Proof Roadmap:** This geometric state-space abstraction matches the native physical properties of next-generation hardware. It provides a seamless, direct logical mapping for **Quantum Qudits (specifically 8-level Octits)** and **Photonic Phase-Shifting Processors**, bypassing the standard translation overhead of binary-to-quantum compilers.
 >
+> 
 > ## Appendix: Transition Dynamics & Hazard Mitigation Specification
 
 ### Asynchronous Geometric Gray Code Mapping
@@ -81,6 +82,20 @@ To prevent logical race conditions (glitches) during transitions between states 
 
 In this geometric configuration, any valid state-to-state radial switching operation requires changing only a single spatial component at a time. This functions as a high-dimensional Geometric Gray Code:
 
+[State 2: Phase Vector Alpha] --(Single Orthogonal Rotation)--> [State 5: Phase Vector Beta]
 
->   
-> * 
+Because only one physical variable shifts during the transition, intermediate undefined states are mathematically eliminated from the topology.
+
+### Insensitive Delay Handshaking Protocol (DI-Pipelines)
+The underlying hardware abstraction layer breaks away from rigid clock-cycle synchronicity by implementing an Asynchronous Phase-Strobe validation framework:
+
+1. When a switching command is triggered, an internal parity validator evaluates the state vector.
+2. A strict stabilization window (tau) acts as an isolated hardware guard.
+3. The host system is restricted from reading the data channel until the parity validator confirms the vector has anchored perfectly onto one of the 8 definitive vertices of the octahedron.
+
+Since the physical stabilization time (tau) is an invariant constant determined by the medium (photonic phase-shifter or semiconductor gate delay), the execution complexity remains rigidly deterministic:
+
+Total Time = O(1) + tau = O(1)
+
+This guarantees that the constant-time O(1) abstraction holds true under physical hardware deployment without paying a software arbitration tax.
+
