@@ -73,4 +73,14 @@ This spatial independence allows all 8 discrete states to coexist simultaneously
 > 
 > * **Immediate Deployment:** It runs symbiotically on top of existing, commercial binary high-performance computing (HPC) infrastructure, offloading heavy concurrent vector/matrix tasks from the host OS without requiring immediate silicon fabrication.
 > * **Future-Proof Roadmap:** This geometric state-space abstraction matches the native physical properties of next-generation hardware. It provides a seamless, direct logical mapping for **Quantum Qudits (specifically 8-level Octits)** and **Photonic Phase-Shifting Processors**, bypassing the standard translation overhead of binary-to-quantum compilers.
+>
+> ## Appendix: Transition Dynamics & Hazard Mitigation Specification
+
+### Asynchronous Geometric Gray Code Mapping
+To prevent logical race conditions (glitches) during transitions between states within the Base-8 radial switching topology, the state vector transitions do not follow linear arithmetic progressions. Instead, the multi-state space is mapped to the Symmetric Group S_8 over a regular polytope. 
+
+In this geometric configuration, any valid state-to-state radial switching operation requires changing only a single spatial component at a time. This functions as a high-dimensional Geometric Gray Code:
+
+
+>   
 > * 
